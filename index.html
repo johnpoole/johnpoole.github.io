@@ -1,1 +1,162 @@
-"Hello" 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Schedule Solve - Automated Scheduling</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<!-- Latest compiled and minified JavaScript -->
+	
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Schedule Solve</a>
+        </div>
+        <div class="navbar-collapse collapse">         
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container theme-showcase" role="main">          
+      <div class="page-header">
+        <h2>Scheduling Problems</h2>		
+      </div>
+      <div class="well">
+	  <p>
+	  &nbsp;&nbsp;A common problem encountered with organizing a schedule is that the length of time to find an ideal, or even acceptable, solution increases exponentially with the size of the schedule. Schedules that fit this situation have the following elements, with the problem being the methods for assigning shifts and rating each combination of shifts assignments.
+	  </p>
+		<ul class="list-group">
+			<li class="list-group-item"><i class="fa fa-list fa-lg"></i> &nbsp;Shift descriptions: times and days of week</li>
+			<li class="list-group-item"><i class="fa fa-users fa-lg"></i>&nbsp;Staff list</li>
+			<li class="list-group-item"><i class="fa fa-book fa-lg"></i>&nbsp;Rules for assignments that are either "acceptable" or "ideal"</li>
+		</ul>
+		<ul class="list-group">
+		
+			<li class="list-group-item">
+				<i class="fa fa-warning fa-lg-1 text-danger"></i>					
+				Method for assigning shifts
+			</li>
+			<li class="list-group-item">
+				<i class="fa fa-warning fa-lg-1 text-danger"></i>					
+				Method for accepting or rejecting schedules</li>
+		</ul>
+		<ul class="list-group">
+			<li class="list-group-item">&nbsp;Publishing format</li>
+			<li class="list-group-item">&nbsp;Distribution (email, etc.)</li>		
+		</ul>
+      </div>
+
+ <div class="page-header">
+        <h2>The automated scheduling process</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">          
+          <div class="panel panel-info">
+            <div class="panel-heading">
+				<i class="fa fa-user fa-lg-2"></i>
+              <h3 class="panel-title">1. Gather requirements documents</h3>
+            </div>			
+            <div class="panel-body">
+				<ul class="list-group">
+					<li class="list-group-item">A staff list with the type and number of shifts that each MD should work</li>
+					<li class="list-group-item">A calendar of the dates that each MD is unavailable</li>
+					<li class="list-group-item"><span class="glyphicon glyphicon-envelope"></span> email documents to john@schedulesolve.com</li>
+				</ul>
+            </div>
+			</div>
+			<div class="panel panel-warning">
+			 <div class="panel-heading">
+				<i class="fa fa-check-square-o fa-lg-1"></i>
+              <h3 class="panel-title">2. Validation</h3>
+            </div>		
+			<div class="panel-body">
+				<ul class="list-group">
+					<li class="list-group-item">Process email inputs</li>
+					<li class="list-group-item">Create validation documents with colour coding and totals</li>
+					<li class="list-group-item"><i class="fa fa-user fa-lg-1"></i><i class="fa fa-envelope fa-lg-2"></i> Receive validation documents via email</li>
+					<li class="list-group-item"><a href="docs/Lines.xlsx" >Example Targets</a></li>
+					<li class="list-group-item"><a href="docs/RGHDatesUnavailable.xlsx" >Example Calendar</a></li>
+					<li class="list-group-item">
+					<i class="fa fa-user fa-lg-1"></i>
+					<i class="fa fa-thumbs-o-up fa-lg-2"></i>
+					<i class="fa fa-edit fa-lg-2"></i>
+					Accept or edit documents</li>
+
+					<li class="list-group-item"><span class="glyphicon glyphicon-refresh"></span> Repeat or <i class="fa fa-cogs"></i> Solve</li>
+				</ul>
+            </div>
+			</div>
+			<div class="panel panel-primary">
+			 <div class="panel-heading">
+				<i class="fa fa-cogs"></i>
+              <h3 class="panel-title">3. Solve</h3>
+            </div>		
+			<div class="panel-body">
+				<ul class="list-group">
+					<li class="list-group-item">The solution is mostly an automatic process</li>
+					<li class="list-group-item">Rule priority will be adjusted if the solution isn't ideal</li>
+					<li class="list-group-item"><i class="fa fa-user fa-lg-1"></i><i class="fa fa-envelope fa-lg-1"></i> Receive solution documents via email</li>
+					<li class="list-group-item"><a href="docs/Results.xlsx" >Example Targets & Results</a></li>
+					<li class="list-group-item"><a href="docs/DatesUnavailablewAssignments.xlsx" >Example Calendar with Assignments and Rules</a></li>
+					<li class="list-group-item">
+					<i class="fa fa-user fa-lg-1"></i>
+					<i class="fa fa-thumbs-o-up fa-lg-2"></i>
+					<i class="fa fa-edit fa-lg-2"></i>
+					Outputs can be edited and used as the inputs for a modified solution</li>
+					<li class="list-group-item"><span class="glyphicon glyphicon-refresh"></span> Repeat or <span class="glyphicon glyphicon-print"></span> Publish</li>
+				</ul>
+            </div>
+			</div> 
+			<div class="panel panel-success">
+			<div class="panel-heading">
+				<span class="glyphicon glyphicon-print"></span>
+              <h3 class="panel-title">4. Publish</h3>
+            </div>		
+			<div class="panel-body">
+				<ul class="list-group">
+					<li class="list-group-item"><a href="docs/RGHSummer.docx" >Example</a></li>
+					<li class="list-group-item"><span class="glyphicon glyphicon-envelope"></span> Distribute</li>
+				</ul>
+            </div>
+			</div>
+          </div>
+        </div><!-- /.col-sm-4 -->                
+      </div>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   
+  </body>
+</html>
