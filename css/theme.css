@@ -1,8 +1,6 @@
-body {
-  padding-top: 70px;
-  padding-bottom: 30px;
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: rgba(0,0,0,0);
 }
-
 .theme-dropdown .dropdown-menu {
   display: block;
   position: static;
