@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>D3.xml Example</title>
+   <script type="text/javascript" src="http://mbostock.github.com/d3/d3.v2.js"></script>
+   <style type="text/css">
+.chart div {
+   font: 10px sans-serif;
+   background-color: steelblue;
+   text-align: right;
+   padding: 3px;
+   margin: 1px;
+   color: white;
+ }
+    </style
+</head>
+<body>
+<div id="chart" class="chart">
+
+</div>
+<script>
+var margin = {top: 100, right: 20, bottom: 30, left: 100},
+    width = 1200 - margin.left - margin.right,
+    height = 3100;
+
+	var shiftList = ["FMCC","FMCG","SHC","PLC","RGH","FN","SN","PN","PRW"];
+
+var y = d3.time.scale().range([0, height-50]);
+var x = d3.scale.ordinal().domain(shiftList).rangeBands([0, width]);
+var svgContainer = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+	.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("top");
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+	.ticks(90);
+	
+d3.xml("previous.xml","application/xml", function(xml) {
+
+	var schedule = xml.documentElement.getElementsByTagName("Assignment");
+	y.domain(d3.extent(schedule, function(d) { 
+		 var date = attr(d, "Date");
+		return getDate(date); 
+	}));
+
+  svgContainer
+    .selectAll("rect")
+    .data(schedule)
+    .enter().append("rect")
+	.style("fill","none")
+	.style("stroke","black")
+	.attr("width",80)
+	.attr("height",13)
+	.attr("y", function(d) {
+	    var date = attr(d, "Date");
+		return y(getDate(date)); 
+	  })
+	  .attr("x",function(d){
+		var shift = attr(d,"ShiftType");
+		return x(shiftName(shift)); 
+	  }).on("click",function(d){console.log(attr(d, "Date"))});
+	  
+	   svgContainer
+    .selectAll("text")
+    .data(xml.documentElement.getElementsByTagName("Assignment"))
+    .enter().append("text")
+	.attr("y", function(d) {
+	  var date = attr(d, "Date");
+		return y(getDate(date)); 
+	  })
+	  .attr("x",function(d){
+	var shift = attr(d,"ShiftType");
+		return x(shiftName(shift)); 
+	  })
+	  .attr("transform", function(d, i){
+			return "translate("+0 + "," + 12 + ")";
+		})
+      .text(function(d) {  
+		var employee =  attr(d,"Employee");
+		return employee.substring(0,8);  });
+		
+		svgContainer.append("g")
+      .attr("class", "y axis")
+      .call(yAxis);
+	  
+	  	svgContainer.append("g")
+      .attr("class", "x axis")
+	  .attr("transform", "translate(0," + -10 + ")")
+      .call(xAxis);
+});
+function getDate(d) {
+    return new Date(d);
+}
+function shiftName(d){
+	if( d =="FWE1"|| d =="FMF1"){
+		return "FMCC";
+	}
+	if( d =="FWE2"|| d =="FMF2"){
+		return "FMCG";
+	}
+	if( d =="SHW"||d =="SHW1"||d =="SHC"){
+		return "SHC"
+	}
+	if( d == "PLC1"|| d =="PLC"){
+		return "PLC"
+	}
+	if( d == "RGH1"|| d =="RGH"){
+		return "RGH"
+	}
+	if( d.indexOf("FN") >=0){
+		return "FN"
+	}
+	if( d.indexOf("SN") >=0){
+		return "SN"
+	}
+	if( d.indexOf("PN") >=0){
+		return "PN"
+	}
+	if( d.indexOf("PRW") >=0){
+		return "PRW"
+	}
+}
+function attr(d, tagName){
+	var firstElement = d.getElementsByTagName(tagName)[0];
+	return firstElement.textContent; 
+}
+
+
+</script>
+</body>
+</html>

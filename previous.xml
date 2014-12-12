@@ -1,0 +1,4564 @@
+<Solution>
+<Assignment>
+	<Date>2014-04-18</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-21</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-22</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-23</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-24</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-25</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-28</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-29</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-30</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-23</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-22</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-24</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-22</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-24</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-25</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-27</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-28</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-29</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-30</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-18</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-20</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-26</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-18</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-18</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-19</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-20</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-30</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-18</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-28</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-28</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-29</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-30</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-18</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-19</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-21</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-21</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-22</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-23</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-24</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-25</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-28</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-29</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-21</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-21</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-22</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-23</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-24</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-25</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-30</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-21</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-22</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-23</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-23</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-24</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-25</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-25</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-26</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-27</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-30</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-25</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-27</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-28</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-29</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-30</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-18</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>SNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-20</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-28</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-21</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-22</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-26</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-29</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-24</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-18</Date>
+	<Employee>White</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-19</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-21</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-22</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-23</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-23</Date>
+	<Employee>White</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-24</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-25</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-28</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-29</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-29</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-04-30</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-01</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-02</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-07</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-08</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-16</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-18</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-20</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-21</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-22</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-22</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-23</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-24</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-26</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-27</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-28</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-29</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-29</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-30</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-26</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-01</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-13</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-20</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-02</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-04</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-05</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-06</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-07</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-08</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-08</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-09</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-10</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-12</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-12</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-13</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-14</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-15</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-16</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-22</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-01</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-02</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-03</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-05</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-05</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-06</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-07</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-08</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-09</Date>
+	<Employee>Zochodne</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-09</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-11</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-12</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-13</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-14</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-14</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-15</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-16</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-17</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-19</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-20</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-21</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-21</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-22</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-23</Date>
+	<Employee>Almekhalfi</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-01</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-15</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-30</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-31</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-13</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-30</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-01</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-02</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-28</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-12</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-16</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-17</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-18</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-20</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-21</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-21</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-22</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-23</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-07</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-12</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-13</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-14</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-15</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-16</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-02</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-03</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-04</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-05</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-06</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-07</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-08</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-09</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-14</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-06</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-23</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-24</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-25</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-26</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-27</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-27</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-28</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-29</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-30</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-20</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-23</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-25</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-26</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-27</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-27</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-28</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-29</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-30</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-31</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-26</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-09</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-10</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-11</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-12</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-13</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-14</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-15</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-15</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-16</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-14</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-19</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-20</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-21</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-22</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-23</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-05</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-06</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-06</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-07</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-08</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-09</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-01</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-01</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-02</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-03</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-05</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-06</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-07</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-07</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-08</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-09</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-15</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-22</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-05</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-12</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-29</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-06</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-09</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-11</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-12</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-13</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-13</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-14</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-15</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-16</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-17</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-19</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-20</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-21</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-22</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-23</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-26</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-23</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-25</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-26</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-27</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-28</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-28</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-29</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-30</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-31</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-29</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-08</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-21</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-24</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-30</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-26</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-27</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-28</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-28</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-29</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-30</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-01</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-02</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-05</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-10</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-16</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-18</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-02</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>SNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-04</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-20</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-05-27</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-03</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-11</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-13</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-15</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-16</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-17</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-18</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-18</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-19</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-20</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-21</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-23</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-24</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-25</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-25</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-26</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-27</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-27</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-29</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-30</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-12</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-09</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-30</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-05</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-26</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-23</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-01</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-02</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-03</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-04</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-05</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-05</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-06</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-17</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-01</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-02</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-03</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-04</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-04</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-05</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-06</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-07</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-09</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-10</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-10</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-11</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-12</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-13</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-04</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-06</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-08</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-09</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-10</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-11</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-11</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-12</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-13</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-14</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-16</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-17</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-18</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-19</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-19</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-20</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-02</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-09</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-23</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-24</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-24</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-25</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-26</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-27</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-06</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-07</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-08</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-09</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-10</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-10</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-11</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-12</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-13</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-21</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-27</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>SNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-29</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-16</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-17</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-17</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-18</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-19</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-20</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-20</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-21</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-22</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-16</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-20</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-22</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-23</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-24</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-24</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-25</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-26</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-27</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-28</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-30</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-02</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-03</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-03</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-04</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-05</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-06</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-16</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-23</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-27</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-28</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-29</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-30</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-23</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-24</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-25</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-26</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-27</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-02</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-07</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-13</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-15</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-23</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-02</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-03</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-04</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-05</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-06</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-30</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-03</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-17</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-09</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-10</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-11</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-12</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-13</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-25</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-26</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-09</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-13</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-14</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-15</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-16</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-17</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-18</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-19</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-20</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-30</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-02</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-03</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-04</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-05</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-05</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-06</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-12</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-18</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-12</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-19</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-01</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-19</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-26</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-11</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-02</Date>
+	<Employee>White</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-20</Date>
+	<Employee>White</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-22</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-23</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-24</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-25</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-25</Date>
+	<Employee>White</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-26</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-27</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-28</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-30</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-06</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-08</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-09</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-10</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-10</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-11</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-12</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-13</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-14</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-16</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-16</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-17</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-18</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-19</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-20</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-24</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-30</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-04</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-06-18</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-11</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-14</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-15</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-16</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-17</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-18</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-21</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-22</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-23</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-24</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-25</Date>
+	<Employee>Becker</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-02</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-03</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-03</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-04</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-05</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-07</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-08</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-09</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-10</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-10</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-11</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-02</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-07</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-22</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-25</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-27</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-28</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-29</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-29</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-30</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-31</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-03</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-09</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-15</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-18</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-20</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-21</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-22</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-22</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-23</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-24</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-25</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-26</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-28</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-28</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-29</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-30</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-31</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-04</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-06</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-07</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-08</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-09</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-10</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-11</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-12</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-14</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-14</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-15</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-16</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-17</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-18</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-24</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-07</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-08</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-08</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-09</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-10</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-11</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-15</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-09</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-14</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-15</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-16</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-16</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-17</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-18</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-30</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-23</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-25</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-26</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-27</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-28</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-29</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-30</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-30</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-31</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-21</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-02</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-11</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-12</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-13</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-16</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-21</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-21</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-22</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-23</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-24</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-25</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-01</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-02</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-03</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-04</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-10</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-17</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-24</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-31</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-01</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-02</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-03</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-04</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-08</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-13</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-19</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-03</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-08</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-17</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-22</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-31</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-04</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-06</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-07</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-08</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-09</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-09</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-10</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-11</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-12</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-14</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-15</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-16</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-16</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-17</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-18</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-21</Date>
+	<Employee>Amoozegar</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-02</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-03</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-04</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-28</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-17</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-19</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-25</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-27</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-14</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-14</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-15</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-16</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-17</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-18</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-07</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-14</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-28</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-02</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-10</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-24</Date>
+	<Employee>Klein</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-28</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-29</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-30</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-31</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-31</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-18</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-20</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-21</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-22</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-23</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-23</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-24</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-25</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-26</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-28</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-29</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-30</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-30</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-31</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-04</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-05</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-06</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-07</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-08</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-09</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-10</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-11</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-29</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-01</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-02</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-03</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-04</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-05</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-07</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-11</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-13</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-15</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-18</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-19</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-20</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-21</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-22</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-23</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-23</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-24</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-25</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-07-29</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-01</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-03</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-05</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-06</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-06</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-07</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-08</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-09</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-11</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-12</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-12</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-13</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-14</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-15</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-27</Date>
+	<Employee>Burton</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-07</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-14</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-02</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-04</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-05</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-06</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-07</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-08</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-18</Date>
+	<Employee>Costello</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-08</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-10</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-11</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-12</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-13</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-13</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-14</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-15</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-16</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-18</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-19</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-20</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-21</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-21</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-22</Date>
+	<Employee>Koch</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+
+<Assignment>
+	<Date>2014-08-05</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-13</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-14</Date>
+	<Employee>Toth</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-22</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-24</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-25</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-26</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-27</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-28</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-29</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-30</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-28</Date>
+	<Employee>Furtado</Employee>
+	<ShiftType>FNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-22</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-23</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-24</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-25</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-26</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-27</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-27</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-28</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-29</Date>
+	<Employee>Hanson</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-01</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-07</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-15</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-17</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-18</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-19</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-20</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-20</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-21</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-22</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-23</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-25</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-25</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-26</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-27</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-28</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-29</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-20</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-29</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-31</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FWE</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-18</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-26</Date>
+	<Employee>Pringsheim</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-11</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-12</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-12</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-13</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-14</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-15</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-15</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-16</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-17</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-19</Date>
+	<Employee>Ranawaya</Employee>
+	<ShiftType>FNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-18</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>PLC1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-19</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-19</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-20</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-21</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-22</Date>
+	<Employee>Sarna</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-01</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-02</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-03</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-05</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-05</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-06</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-07</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-08</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-11</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>FNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-25</Date>
+	<Employee>Yeung</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-08</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>SNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-10</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-14</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-22</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>SNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-24</Date>
+	<Employee>Alikhani</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-11</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-12</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-13</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-14</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-15</Date>
+	<Employee>Brownell</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-01</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-03</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-05</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-05</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-06</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-07</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-08</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-09</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-11</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-12</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-12</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-13</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-14</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-15</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-26</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>PNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-18</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-19</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-20</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-21</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-21</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-22</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-28</Date>
+	<Employee>Chhibber</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-02</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-04</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-11</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-25</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-29</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-30</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-31</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-25</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-26</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-27</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-28</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-29</Date>
+	<Employee>Fletcher</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-01</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-07</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-16</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-21</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-29</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-31</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-28</Date>
+	<Employee>Patry</Employee>
+	<ShiftType>PNTH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-06</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>PNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-13</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-19</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-26</Date>
+	<Employee>Pearson</Employee>
+	<ShiftType>SNT</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-06</Date>
+	<Employee>White</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-11</Date>
+	<Employee>White</Employee>
+	<ShiftType>PNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-15</Date>
+	<Employee>White</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-17</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-18</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-19</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-20</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-20</Date>
+	<Employee>White</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-21</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-22</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-23</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-25</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-26</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-27</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-27</Date>
+	<Employee>White</Employee>
+	<ShiftType>SNW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-28</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-29</Date>
+	<Employee>White</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-04</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-05</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-06</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-07</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-08</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-08</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-09</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-10</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>PRW</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-18</Date>
+	<Employee>Wilson</Employee>
+	<ShiftType>SNM</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-08-30</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-01</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-02</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-03</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-04</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-05</Date>
+	<Employee>Watson</Employee>
+	<ShiftType>FMF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-01</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>RGH1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-02</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-03</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-04</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-05</Date>
+	<Employee>Klassen</Employee>
+	<ShiftType>PLC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-02</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-03</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-04</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-05</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-06</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FWE1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-08</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-09</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-10</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-11</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-12</Date>
+	<Employee>Kraft</Employee>
+	<ShiftType>FMF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-02</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-03</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-04</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-05</Date>
+	<Employee>Davenport</Employee>
+	<ShiftType>RGH</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-02</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-03</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+
+<Assignment>
+	<Date>2014-09-04</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-05</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-08</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-09</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-10</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-11</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-12</Date>
+	<Employee>Korngut</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-01</Date>
+	<Employee>Wiltshire</Employee>
+	<ShiftType>SHC</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-10-24</Date>
+	<Employee>Busche</Employee>
+	<ShiftType>SNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-10-24</Date>
+	<Employee>Desai</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-09-05</Date>
+	<Employee>Cairncross</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-10-03</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FNF2</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-11-21</Date>
+	<Employee>Metz</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-11-07</Date>
+	<Employee>Cooke</Employee>
+	<ShiftType>FNF1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-10-31</Date>
+	<Employee>Kohli</Employee>
+	<ShiftType>PRW1</ShiftType>
+</Assignment>
+<Assignment>
+	<Date>2014-10-25</Date>
+	<Employee>Pfeffer</Employee>
+	<ShiftType>SHW1</ShiftType>
+</Assignment>
+</Solution> 
