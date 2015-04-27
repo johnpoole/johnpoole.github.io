@@ -1,236 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<head>
+<meta name="description" content="Automated business operations planning solver.">
+
+<!-- Google Analytics -->
+<script>
+</script>
+
+<!-- Google Tag Manager -->
+<!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Talos Solver</title>
+    
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:700italic,600,600italic,400,700,400italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://fast.fonts.net/jsapi/6a2fcf64-6e9c-413e-b235-74d7c0bfc6be.js"></script>    
 
-    <title>Zebra Planner</title>
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/icons/icon_32x32.png">
+    
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+<link rel='stylesheet' id='bootstrap-style-css'  href='./resources/css/bootstrap.min.css?ver=4.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='briefing-style-css'  href='./resources/themes/style.css?ver=4.0.3' type='text/css' media='all' />
 </head>
 
-<body id="page-top" class="index">
+<body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Zebra Planner</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="./users">Users</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Zebra Planner</span>
-                        <hr class="star-light">
-                        <span class="skills">Optimized Work Schedules - Customized Rules</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Clients</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">                            
-                                           
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p>Zebra Planner creates optimal schedule arrangements using two main components. </p>
-					<p>The first is a customized definition of what the best schedule is, unique to the scheduling being done. For existing clients, that has been based on equity of schedules, accommodation of sabbaticals, special cases for seniority, sufficient rest between groups of assignments and regular predicable patterns.</p>
-					<p>The second is a software process that takes about 24 hours to check all the possible arrangements of physicians and assignments, measuring each arrangement against the definition, and then reporting on which one is the best.</p>
-                </div>                
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                  
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>613 34 Avenue SW<br>Calgary,Ab T2S 0T3</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                       
-                    </div>
-                    <div class="footer-col col-md-4">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; John Poole 2014
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
+    <!-- jQuery and jQuery UI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <div class="container-fluid">
+    	<div class="row" id="header">
+        	<div class="col-sm-5 col-sm-offset-1">
+            	<a href="/"><img id="logo" src="./resources/logo/logo.svg"></a>
+         	</div><!-- /col -->
+            <div class="col-sm-5 form">
+                <a>Login</a>
+          </div><!-- /col -->
+        </div><!-- /#header -->
+<div class="row" id="intro">
+            <div class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">
+                
+                <h1>Talos Solver</h1>
+                <div id="intro-line" class="line"></div>
+                <p id="teaser">Planning problem solution and optimization.</p>
+                <div class="arrow"></div>
+                <div class="arrow-cover"></div>
+                <a href="#s1"><div id="arrow-link"></div></a>
+            </div><!-- /col -->
+       	</div><!-- /#intro -->
+		<div class="row dark" id="s1">
+<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+<h1>What is a planning problem?</h1>
+<p>One that has a solution which is recognizable as correct once found.</p>
+<p>One with definable criteria of what the goals for a solution are.</p>
+<p>Often a problem with a method that works in theory or on small examples, but in practice is too slow.</p>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+</div>
+<p><!-- /col -->
+               </div>
+<div class="row" id="s2">
+<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+<h1>Projects</h1>
+<p>24 hour scheduling for hundreds of Emergency Department physicians
+ <a href="http://" target="_blank">AHS</a> A <span style="font-style:italic">Foreign Policy</span>.</p>
+ <p>Optimize Calgary Transit vehicle selection and timing.
+ <a href="./leaflet" target="_blank">Demo</a> </p>
+</div>
+<p><!-- /col -->
+               </div>
+<div class="row dark" id="s3">
+<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+<h1>Process</h1>
+<p>Analyze current situation.</p>
+<p>Create a scoring algorithm</p>
+<p>Create a solving process</p>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+</div>
+<p><!-- /col -->
+               </div>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
+
+
+<div class="row nav">
+    <div class="col-xs-12 col-sm-4 col-md-2 col-md-offset-3">
+    </div><!-- /col -->
+    <div class="col-xs-12 col-sm-4 col-md-2">
+        <p class="nav-category">Contact</p>
+        <p class="nav-item"><a href="">email</a></p>
+    </div><!-- /col -->
+    <div class="col-xs-12 col-sm-4 col-md-2">
+    </div><!-- /col -->
+</div><!-- /nav -->
+
+        <div class="row" id="footer">
+        	<div class="col-xs-12">
+<br>
+    		</div><!-- /col -->	
+       	</div><!-- /#footer -->
+    </div><!-- /container -->
+     
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./resources/js/bootstrap.min.js"></script>
+
+<script type='text/javascript' src='./resources/themes/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='./resources/themes/js/skip-link-focus-fix.js?ver=20130115'></script>
 
 </body>
-
 </html>
