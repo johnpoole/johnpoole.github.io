@@ -79,11 +79,14 @@ hospitals across Calgary. Creating a fair, safe and enjoyable work schedule beco
 and impossible when there is more 80 at multiple locations. Talos Solver is used to generate the best possible schedule, and then 
 allow for editing the result to meet specific cases. 
  </p>
- <p> <b>School Bus Route Optimization Demo</b> </p>
-<p>School bus routes change more frequently than public transit routes, and often require special considerations for some students. An optimal
-route will balance student travel time with operating costs.</P
-	<p><h3></h3> <a href="http://fariview.bitnamiapp.com:8080/transit/leaflet" target="_blank">School Bus Demo</a></h3> </p>
-
+  <h1>SBRP</h1>
+<p>The school bus routing problem is a well known logistics topic.
+ <a href="http://www.sciencedirect.com/science/article/pii/S037722170900349X">Academic Papers</a> define the problem as:
+ "SBRP seeks to plan an efficient schedule for a fleet of school buses where each bus picks up students from various bus stops and delivers them to their designated schools while satisfying various constraints such as the maximum capacity of a bus, the maximum riding time of a student in a bus, and the time window of a school. "</p>
+<p>The Talos SBR focuses on the 'impossible' part of the problem: <a href="https://en.wikipedia.org/wiki/Vehicle_routing_problem">route selection</a>. Given that a school has existing limitations on bus stop locations, class times, and an existing transportation budget, the SBR will find the best bus routes. Improvements over existing routes are based on reduced bus count or size, reduced maximum student travel time, and reduced total travel time. </p>
+<p>A critical feature of the Talos SBR is that pre-existing conditions can be included in the route selection, and the definition of "best" is customized to each model. For example, some schools require grouping by age on each bus, so the best route includes that rule.</p>
+<p><a href="SBR%20example">Click to see an SBR example for a Calgary school.</a></p>
+        
 </div>
 <p><!-- /col -->
                </div>
