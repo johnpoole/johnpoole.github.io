@@ -4,18 +4,22 @@ var shifts;
 Reveal.addEventListener( 'slidechanged', function() {
 		 var indices = Reveal.getIndices();
 			console.log( "Slide changed: "+indices.f);
-			   plotChart(shifts.steps, indices.f +1);
+			if( !( indices.f === undefined))
+				if( indices.f  >= -1)
+					plotChart(shifts, indices.f +1);
  			} );
 			
 Reveal.addEventListener( 'fragmentshown', function() {
 		 var indices = Reveal.getIndices();
 			console.log( " fragment shown: "+indices.f);
-			   plotChart(shifts.steps, indices.f + 1);
+			if( indices.f  >= -1)
+			   plotChart(shifts, indices.f+1);
  			} );
-			Reveal.addEventListener( 'fragmenthidden', function() {
+Reveal.addEventListener( 'fragmenthidden', function() {
 		 var indices = Reveal.getIndices();
 			console.log( " fragment h: "+indices.f);
-			   plotChart(shifts.steps, indices.f+1);
+			if( indices.f  >= -1)
+			   plotChart(shifts, indices.f+1);
  			} );
 d3.json("data/shifts.json", function(error, shiftJson) {
 shifts = shiftJson;
@@ -53,7 +57,6 @@ shifts = shiftJson;
         day = d3.timeFormat("%w"),
         hour = d3.timeFormat("%H");
         
-        var bootstrapCol =  d3.select("schedule");
         var columns = ["Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday", "Sunday"];
         var parsedRules;
     	var rulesObj=[];
@@ -62,20 +65,16 @@ shifts = shiftJson;
         var timeOff;
         var swapping,swapOne;
         var group;
-      	 var table = bootstrapCol.append("table").attr("class","table table-bordered table-fixed"),
-         thead = table.append("thead"),
-         tbody = table.append("tbody");
-    	 
-      	 thead.append("tr")
-    	        .selectAll("th")
-    	        .data(columns)
-    	        .enter()
-    	        .append("th")
-    	            .text(function(column) { return column; });
-		var globalStep;
-      	 function plotChart(steps, index) {  
-		   globalStep = index;
-     		 if( shiftTypeList){
+   		var globalStep;
+/*
+*       draw the schedule. For now, everthing is just being removed and redrawn instead of being updated
+
+*/		
+      	 function plotChart(shifts, index) {  
+			if( shifts === undefined) return;
+			var steps = shifts.steps;
+		    globalStep = index;
+     		if( shiftTypeList){
       		 	shiftTypes = shiftTypeObj(shiftTypeList);      	
       		 	group = shiftTypeList[0].schedulingGroup.name;
       	 	}
@@ -84,7 +83,8 @@ shifts = shiftJson;
         	}
         //	parsedRules = rules;
         	var nest = toCalendar( steps[index].assignmentTransfers); 
-        	d3.select("table").remove();
+		    var bootstrapCol =  d3.select("schedule");
+			bootstrapCol.select("table").remove();
 
         	 var table = bootstrapCol.append("table").attr("class","table table-bordered table-fixed"),
              thead = table.append("thead"),
@@ -266,14 +266,18 @@ shifts = shiftJson;
     		return number + ""; // always return a string
     	}
     	function ruleLevel( key, step ){
-    		if( typeof rulesObj[step][key] != 'undefined')
-    			return rulesObj[step][key].css;
+			if( step >=0 && step <=1){
+				if( typeof rulesObj[step][key] != 'undefined')
+					return rulesObj[step][key].css;
+			}
     		return "";
     	}
     	
     	function ruleName( key, step ){
-    		if( typeof rulesObj[step][key] != 'undefined')
-    			return rulesObj[step][key].constraintName;
+			if( step >=0 && step <=1){
+				if( typeof rulesObj[step][key] != 'undefined')
+					return rulesObj[step][key].constraintName;
+			}
     		return "";
         	}
 //Shift Counts    	
