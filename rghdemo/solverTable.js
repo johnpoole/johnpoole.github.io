@@ -58,7 +58,7 @@ shifts = shiftJson;
         hour = d3.timeFormat("%H");
         
         var columns = ["Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday", "Sunday"];
-		        var constraintColumns = ["Rule","Employee","Date", "ShiftType"];
+		var constraintColumns = ["Rule","Employee","Date", "Penalty"];
 
         var parsedRules;
     	var rulesObj=[];
@@ -130,28 +130,42 @@ shifts = shiftJson;
         	  
 /* add a table containing the constraints */
 			  
-		drawConstraints();		 
+			drawConstraints();		 
         }
+		
 		function drawConstraints(){
 		    var bootstrapCol =  d3.select("constraints");
 			bootstrapCol.select("table").remove();
 
-			 var table = bootstrapCol.append("table").attr("class","table table-bordered table-fixed"),
-             thead = table.append("thead"),
-             tbody = table.append("tbody");
+			var table = bootstrapCol.append("table").attr("class","table table-bordered table-fixed"),
+            thead = table.append("thead");
         	 
-          	 thead.append("tr")
+          	thead.append("tr")
         	        .selectAll("th")
         	        .data(constraintColumns)
         	        .enter()
         	        .append("th")
         	            .text(function(column) { return column; });
-       	
-
-          	tbody.selectAll("tr")
-    	    .data(rulesObj[globalStep]).enter().append("tr");
+			var tempRules = rulesObj[globalStep];
+		
+			
+          	table.append("tbody")
+				.selectAll("tr")
+				.data(d3.entries(tempRules))
+				.enter()
+				.append("tr")
+				.html(function(row) { 
+					return "<td>"+row.value.constraintName+"</td>"
+					+"<td>"+row.value.employee+"</td>"
+					+"<td>"+row.value.date+"</td>"
+					+"<td>"+row.value.weight+"</td>"
+					;
+				}).attr("class", function(row) { 
+					return row.value.css;
+				} );
 
 		}
+		
         function shiftTypeObj(stypes){
         	var obj = {};
         	stypes.forEach( function (stype){
