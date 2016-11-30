@@ -252,8 +252,8 @@ shifts = shiftJson;
     		if( code == "PM1") return "MT ";
     		if( code == "PM2") return "MT ";
     		if( code == "FC") return "Fx ";
-    		if( code == "F1") return "</small>F<small> ";
-    		if( code == "F2") return "</small>F<small> ";
+    		if( code == "F1") return " F ";
+    		if( code == "F2") return " F ";
 
     		return "";	
     	}
