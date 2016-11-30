@@ -58,6 +58,8 @@ shifts = shiftJson;
         hour = d3.timeFormat("%H");
         
         var columns = ["Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday", "Sunday"];
+		        var constraintColumns = ["Rule","Employee","Date", "ShiftType"];
+
         var parsedRules;
     	var rulesObj=[];
 
@@ -67,9 +69,9 @@ shifts = shiftJson;
         var group;
    		var globalStep;
 /*
-*       draw the schedule. For now, everthing is just being removed and redrawn instead of being updated
-
-*/		
+ *       draw the schedule. For now, everthing is just being removed and redrawn instead of being updated
+ *
+ */		
       	 function plotChart(shifts, index) {  
 			if( shifts === undefined) return;
 			var steps = shifts.steps;
@@ -123,10 +125,33 @@ shifts = shiftJson;
           	          	
           //	var exit = shifts.exit();
          // 	exit.remove();				
-//!!rule class should be changed on both old and new values       	            
+//!!rule class should be changed on both old and new values     	            
           //	 countFilteredShifts(steps[index].assignmentTransfers);
-        	     
+        	  
+/* add a table containing the constraints */
+			  
+		drawConstraints();		 
         }
+		function drawConstraints(){
+		    var bootstrapCol =  d3.select("constraints");
+			bootstrapCol.select("table").remove();
+
+			 var table = bootstrapCol.append("table").attr("class","table table-bordered table-fixed"),
+             thead = table.append("thead"),
+             tbody = table.append("tbody");
+        	 
+          	 thead.append("tr")
+        	        .selectAll("th")
+        	        .data(constraintColumns)
+        	        .enter()
+        	        .append("th")
+        	            .text(function(column) { return column; });
+       	
+
+          	tbody.selectAll("tr")
+    	    .data(rulesObj[globalStep]).enter().append("tr");
+
+		}
         function shiftTypeObj(stypes){
         	var obj = {};
         	stypes.forEach( function (stype){
@@ -148,7 +173,7 @@ shifts = shiftJson;
         }
         function ruleTitle(d){
     	if( d.employeeName != null)
-			return ruleName(d.employeeName+d.date);
+			return ruleName(d.employeeName+d.date, globalStep);
     	return "";
     }
 

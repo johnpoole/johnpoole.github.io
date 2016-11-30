@@ -1,4 +1,11 @@
 <!doctype html>
+<!-- TODO 
+Add a list of the violated constraints.
+(done)Add mouseover for highlighted shifts
+Add text/documentation
+Each shift on a single line (wider table, smaller font or "wrap" setting?)
+Fragments in same location?
+-->
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -477,6 +484,8 @@
 												</tbody>
 											</table>
 										</div>
+										</section>
+										<section>
 										<h2 id="rules">Rules</h2>
 										<table>
 											<thead>
@@ -495,11 +504,16 @@
 										</table>
 									</section>
 
-									<section class="anything"  id="" style="overflow:scroll; height:700px;" >
-										<table><tr><td><p >Empty</p></td>
+									<section class="anything"  id="" >
+										<table><tr><td>Empty</td>
 										<td class="fragment fade-up">Constructed</td>
-										<td class="fragment fade-up">Solved</td></tr></table>										
+										<td class="fragment fade-up">Solved</td></tr></table>	
+										<div style="overflow:scroll; height:500px; width:1200px;" >
 										<schedule></schedule>
+										</div>
+										<div style="overflow:scroll; height:500px; width:1200px;" >
+										<constraints></constraints>
+										</div>
 									</section>
 								</div>
 							</div>
@@ -510,7 +524,8 @@
 							<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-			 
+			     width: 1260,
+
 				history: true,
 				anything: [ 
 					{
