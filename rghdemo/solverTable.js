@@ -266,7 +266,7 @@ shifts = shiftJson;
     		return number + ""; // always return a string
     	}
     	function ruleLevel( key, step ){
-			if( step >=0 && step <=1){
+			if( step >=0 ){
 				if( typeof rulesObj[step][key] != 'undefined')
 					return rulesObj[step][key].css;
 			}
@@ -274,7 +274,7 @@ shifts = shiftJson;
     	}
     	
     	function ruleName( key, step ){
-			if( step >=0 && step <=1){
+			if( step >=0 ){
 				if( typeof rulesObj[step][key] != 'undefined')
 					return rulesObj[step][key].constraintName;
 			}
