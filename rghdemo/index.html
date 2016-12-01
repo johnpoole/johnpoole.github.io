@@ -1,10 +1,11 @@
 <!doctype html>
 <!-- TODO 
-Add a list of the violated constraints.
-(done)Add mouseover for highlighted shifts
 Add text/documentation
-Each shift on a single line (wider table, smaller font or "wrap" setting?)
 Fragments in same location?
+Black text for shift description.
+Final Slide
+sort constraints by date
+better final solution
 -->
 <html>
 	<head>
@@ -505,15 +506,28 @@ Fragments in same location?
 									</section>
 
 									<section class="anything"  id="" >
-										<table><tr><td>Empty</td>
-										<td class="fragment fade-up">Constructed</td>
-										<td class="fragment fade-up">Solved</td></tr></table>	
+										<table><tr>
+										<td>Schedule</td>
+										<td class="fragment current-visible">Constructed</td>
+										<td class="fragment current-visible">Solved</td></tr></table>	
 										<div style="overflow:scroll; height:500px; width:1200px;" >
 										<schedule></schedule>
 										</div>
 										<div style="overflow:scroll; height:500px; width:1200px;" >
 										<constraints></constraints>
 										</div>
+									</section>
+									<section >
+										<h2>Results</h2>
+										<ul>
+											<li>An example scheduling solution for a 24 hour Emergency Department.</li>
+
+											<li>15 to 17 shifts that need to be worked each day.</li>
+
+											<li>78 Physicians with individual contracts, including duties at other locations.</li>
+
+											<li>5 Physicians who pre-select their own shift assignments.</li>
+										</ul>
 									</section>
 								</div>
 							</div>

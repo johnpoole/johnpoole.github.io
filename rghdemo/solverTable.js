@@ -120,7 +120,7 @@ shifts = shiftJson;
 						
           	var enter = shifts.enter().append("div")
           	.html(shiftHTML)
-          	.style("color","green")
+          	//.style("color","green")
           	.attr("class", ruleClass ).attr("title", ruleTitle );
           	          	
           //	var exit = shifts.exit();
@@ -148,10 +148,19 @@ shifts = shiftJson;
         	            .text(function(column) { return column; });
 			var tempRules = rulesObj[globalStep];
 		
-			
+			var sortedValues = d3.entries(tempRules).sort( 										
+					function(a,b) {
+							var adate = a.value.date, bdate = b.value.date
+							if( adate < bdate || bdate == null){
+								return -1;
+							}else if(adate > bdate || adate == null){
+								return 1;
+							} 
+							return 0;
+					} )
           	table.append("tbody")
 				.selectAll("tr")
-				.data(d3.entries(tempRules))
+				.data( sortedValues)				
 				.enter()
 				.append("tr")
 				.html(function(row) { 
@@ -281,7 +290,7 @@ shifts = shiftJson;
     			return shiftType.code +" "+ formatEmployee(employee);
     		}
     		if(locationName == "RGH "){locationName="";}
-    		return zeroFill(shiftType.description,2)+" "+locationName+shiftLabel(code ) + formatEmployee(employee);
+    		return"<font color='black'>"+ zeroFill(shiftType.description,2)+"</font>"+locationName+shiftLabel(code ) +"<font color='green'>"+formatEmployee(employee)+"</font>";
     	}    	    	
 
     	function shiftLabel( code ){
