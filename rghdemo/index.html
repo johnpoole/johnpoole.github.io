@@ -1,11 +1,9 @@
 <!doctype html>
 <!-- TODO 
 Add text/documentation
-Fragments in same location?
-Black text for shift description.
-Final Slide
-sort constraints by date
-better final solution
+Final Slide text
+add Score?
+Anonymize the data
 -->
 <html>
 	<head>
@@ -34,16 +32,46 @@ better final solution
 							<div class="reveal">
 								<div class="slides">
 									<section >
-										<h2>Emergency Department Physician Schedules</h2>
+										<h2>Emergency Department Scheduling</h2>
 										<ul>
-											<li>An example scheduling solution for a 24 hour Emergency Department.</li>
-
-											<li>15 to 17 shifts that need to be worked each day.</li>
-
-											<li>78 Physicians with individual contracts, including duties at other locations.</li>
-
-											<li>5 Physicians who pre-select their own shift assignments.</li>
+											<li>15 to 17 shifts each day.</li>
+											<li> 24 hour coverage</li>
+											<li>58 physicians with individual contracts, including duties at other locations.</li>
 										</ul>
+									</section>
+									<section>
+										<h2 id="rules">Rules (mandatory)</h2>
+										<table>
+											<thead>
+												<tr>
+													
+												</tr>
+											</thead>
+											<tbody>
+												
+<tr><td>max Assignment Per Week</td></tr>
+<tr><td>maximum Consecutive Working Day</td></tr>
+<tr><td>minimum Consecutive Free Days</td></tr>
+<tr><td>minimum Rest Between Nights</td></tr>
+<tr><td>no Earlier Shift Next Day </td></tr>
+<tr><td>no Assignment on Holiday</td></tr>
+											</tbody>
+										</table>
+										<h2 id="rules">Preferences(prioritized)</h2>
+										<table>
+											<thead>
+												<tr>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td>consecutive Weekends </td></tr>
+<tr><td>complete Weekend</td></tr>
+<tr><td>maximum Consecutive Free Days</td></tr>
+<tr><td>minimum Consecutive Working Days</td></tr>
+<tr><td>individual Preferences</td></tr>
+											</tbody>
+										</table>
 									</section>
 									<section>
 										<h2 id="shifts">Shifts</h2>
@@ -486,28 +514,7 @@ better final solution
 											</table>
 										</div>
 										</section>
-										<section>
-										<h2 id="rules">Rules</h2>
-										<table>
-											<thead>
-												<tr>
-													
-												</tr>
-											</thead>
-											<tbody>
-												<tr><td>consecutive Weekends </td></tr>
-<tr><td>complete Weekend</td></tr>
-<tr><td>max Assignment Per Week</td></tr>
-<tr><td>maximum Consecutive Free Days</td></tr>
-<tr><td>maximum Consecutive Working Day</td></tr>
-<tr><td>minimum Consecutive Free Days</td></tr>
-<tr><td>minimum Consecutive Working Days</td></tr>
-<tr><td>minimum Rest Between Nights</td></tr>
-<tr><td>no Earlier Shift Next Day </td></tr>
-<tr><td>assignment on Holiday</td></tr>
-											</tbody>
-										</table>
-									</section>
+										
 
 									<section class="anything"  id="" >
 										<table><tr>
@@ -524,13 +531,12 @@ better final solution
 									<section >
 										<h2>Results</h2>
 										<ul>
-											<li>An example scheduling solution for a 24 hour Emergency Department.</li>
+											<li>"Constructed" is a starting point where no rules are broken, 
+and broken preferences are highlighted on shifts and shown in list</li>
+<li>"Solved" is the result of finding the arrangement with both no broken rules and the fewest possible violated prefences.</li>
 
-											<li>15 to 17 shifts that need to be worked each day.</li>
-
-											<li>78 Physicians with individual contracts, including duties at other locations.</li>
-
-											<li>5 Physicians who pre-select their own shift assignments.</li>
+<li>For a schedule of this size, a solution takes about 2 hours when first created, and a few minutes when new information is added
+</li>
 										</ul>
 									</section>
 								</div>
