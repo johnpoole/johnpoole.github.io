@@ -1,7 +1,13 @@
 <!doctype html>
 <!-- TODO 
 add Score? Explain exactly how "solved" is better.
+Count of violated constraints
+Total value of "weights"
+
 Anonymize the data
+Explain Controls <space> or arrows
+
+There is no simple method for finding the best schedule in a reasonable amount of time.
 -->
 <html>
 	<head>
@@ -35,10 +41,15 @@ Anonymize the data
 											<li>15 to 17 shifts each day.</li>
 											<li>24 hour coverage.</li>
 											<li>58 physicians with individual contracts, including duties at other locations.</li>
+											
+											<li>There is no simple method for finding the best schedule in a reasonable amount of time.</li>
+											<li>Use a type of artifical intelligence to search the solution space</li>
 											<li>Rules, preferences, and parameters customized to schedule.</li>
 											<li>Flexible system for continous improvement.</li>
-
+											
 										</ul>
+										<p></p>
+										<h6><i>Use the Space key to navigate through the slides.</i></h6>
 									</section>
 									<section>
 										<h2 id="rules">Rules (mandatory)</h2>
@@ -532,9 +543,11 @@ Anonymize the data
 									<section >
 										<h2>Results</h2>
 										<ul>
-											<li>"Constructed" is a starting point where no rules are broken, 
-and broken preferences are highlighted on shifts and shown in list.</li>
-<li>"Solved" is the result of finding the arrangement with both no broken rules and the fewest possible violated prefences.</li>
+											<li>The "Constructed" version is a starting point where no rules are broken, 
+and broken preferences are highlighted on shifts and shown in list. It has 335 violations with a priority total of -8593
+</li>
+<li>"Solved" is the result of finding the arrangement with both no broken rules and the fewest possible violated prefences.
+It has 168 violations with a priority total of -837</li>
 
 <li>For a schedule of this size, a solution takes about 2 hours when first created, and a few minutes when new information is added.
 </li>
