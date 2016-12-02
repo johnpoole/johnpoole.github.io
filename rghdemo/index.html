@@ -1,13 +1,6 @@
 <!doctype html>
 <!-- TODO 
-add Score? Explain exactly how "solved" is better.
-Count of violated constraints
-Total value of "weights"
-
 Anonymize the data
-Explain Controls <space> or arrows
-
-There is no simple method for finding the best schedule in a reasonable amount of time.
 -->
 <html>
 	<head>
@@ -45,6 +38,7 @@ There is no simple method for finding the best schedule in a reasonable amount o
 											<li>There is no simple method for finding the best schedule in a reasonable amount of time.</li>
 											<li>Use a type of artifical intelligence to search the solution space</li>
 											<li>Rules, preferences, and parameters customized to schedule.</li>
+											<li>Preferences are assigned priority weights on an arbitrary scale chosen and refined over years of scheduling.</li>
 											<li>Flexible system for continous improvement.</li>
 											
 										</ul>
@@ -61,12 +55,12 @@ There is no simple method for finding the best schedule in a reasonable amount o
 											</thead>
 											<tbody>
 												
-<tr><td>max Assignment Per Week</td></tr>
-<tr><td>maximum Consecutive Working Day</td></tr>
-<tr><td>minimum Consecutive Free Days</td></tr>
-<tr><td>minimum Rest Between Nights</td></tr>
-<tr><td>no Earlier Shift Next Day </td></tr>
-<tr><td>no Assignment on Holiday</td></tr>
+<tr><td class="label-warning">max Assignment Per Week</td></tr>
+<tr><td class="label-warning">maximum Consecutive Working Day</td></tr>
+<tr><td class="label-warning">minimum Consecutive Free Days</td></tr>
+<tr><td class="label-warning">minimum Rest Between Nights</td></tr>
+<tr><td class="label-warning">no Earlier Shift Next Day </td></tr>
+<tr><td class="label-warning">no Assignment on Holiday</td></tr>
 											</tbody>
 										</table>
 										<h2 id="rules">Preferences(prioritized)</h2>
@@ -77,11 +71,11 @@ There is no simple method for finding the best schedule in a reasonable amount o
 												</tr>
 											</thead>
 											<tbody>
-												<tr><td>consecutive Weekends </td></tr>
-<tr><td>complete Weekend</td></tr>
-<tr><td>maximum Consecutive Free Days</td></tr>
-<tr><td>minimum Consecutive Working Days</td></tr>
-<tr><td>individual Preferences</td></tr>
+												<tr><td class="label-info">consecutive Weekends </td></tr>
+<tr><td  class="label-info">complete Weekend</td></tr>
+<tr><td class="label-info">maximum Consecutive Free Days</td></tr>
+<tr><td class="label-info">minimum Consecutive Working Days</td></tr>
+<tr><td class="label-info">individual Preferences</td></tr>
 											</tbody>
 										</table>
 									</section>
@@ -533,10 +527,10 @@ There is no simple method for finding the best schedule in a reasonable amount o
 										<td>Schedule</td>
 										<td class="fragment current-visible">Constructed</td>
 										<td class="fragment current-visible">Solved</td></tr></table>	
-										<div style="overflow:scroll; height:500px; width:1200px;" >
+										<div style="overflow:scroll; height:400px; width:1200px;" >
 										<schedule></schedule>
 										</div>
-										<div style="overflow:scroll; height:500px; width:1200px;" >
+										<div style="overflow:scroll; height:300px; width:1200px;" >
 										<constraints></constraints>
 										</div>
 									</section>
