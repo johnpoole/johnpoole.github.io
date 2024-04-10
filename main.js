@@ -4,7 +4,7 @@ var payouts = [];
             var links = [];
 d3.csv("purse.csv", function (error, purse) {
 	
-	  d3.json("scores2.json", function (error, scores) {
+	  d3.json("scores.json", function (error, scores) {
         var players = scores.data.player;
 		players.forEach(function (p) {
 				p.Player = p.first_name+" "+p.last_name;
