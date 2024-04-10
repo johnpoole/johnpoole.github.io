@@ -1,97 +1,93 @@
-// Assuming d3 and necessary libraries are loaded
-document.addEventListener("DOMContentLoaded", function() {
-    Promise.all([
-        d3.csv("purse.csv"),
-        d3.json("scores.json"),
-        d3.csv("MastersPool2023.csv")
-    ]).then(function([purseData, scoresData, poolData]) {
-        const players = processPlayers(scoresData.results.leaderboard);
-        const payouts = calcPayouts(purseData, players);
-        const nodes = buildNodes(players, payouts);
-        const links = buildLinks(poolData, players);
 
-        const nodesWithPicks = enrichPicks(poolData, players, payouts);
-        nodes.push(...nodesWithPicks);
+var payouts = [];
+ var nodes = [];
+            var links = [];
+d3.csv("purse.csv", function (error, purse) {
+	
+	  d3.json("scores2.json", function (error, scores) {
+        var players = scores.data.player;
+		players.forEach(function (p) {
+				p.Player = p.first_name+" "+p.last_name;
+            });
+        payouts = calcPayouts(purse, players);
+		players.forEach(function (p) {
+                p.purse = payouts[p.position];
+                nodes.push({
+                    id: p.full_name,
+                    group: 3,
+                    label: p.full_name,
+                    money: p.purse,
+                    golfer: true
+                })
+            });
+        d3.csv("Masters2024.csv", function (error, data) {
+            if (error)
+                throw error;
 
-        const header = ["name", "money"];
-        tabulate(nodes, header);
-    }).catch(error => console.error("Failed to load data: ", error));
+           
+
+            data.forEach(function (d) {
+                var entry = {
+                    id: d.name,
+                    picks: [],
+                    group: 10,
+                    label: d.name
+                };
+                for (i = 1; i <= 8; i++) {
+                    let searchString = d["pick" + i].trim();
+                    let player = players.find(item => item.Player === searchString) || null;
+
+                    if (player)
+                        entry.picks.push(player);
+                }
+                entry.picks.forEach(function (pick) {
+                    if (pick) {
+                        var label = pick.Player
+                            links.push({
+                            source: d.Name,
+                            "target": pick.Player,
+                            "value": 3,
+                            "label": label
+                        });
+                    }
+                });
+                entry.money = estimateMoney(entry.picks);
+
+                nodes.push(entry);
+            });
+            var header = ["name", "money"];
+            tabulate(nodes, header);
+
+        });
+    });
 });
 
-function processPlayers(players) {
-    return players.map(p => ({
-        ...p,
-        Player: `${p.first_name} ${p.last_name}`,
-        purse: 0
-    }));
+function estimateMoney(picks) {
+    var total = 0;
+    picks.forEach(function (p) {
+        if (p)
+            total += purse(p);
+    })
+    return total;
 }
 
-function buildNodes(players, payouts) {
-    return players.map(p => {
-        const purse = calculatePurse(p, payouts);
-        return {
-            id: p.Player,
-            group: 3,
-            label: p.Player,
-            money: purse,
-            golfer: true
-        };
-    });
-}
-
-function buildLinks(poolData, players) {
-    let links = [];
-    poolData.forEach(d => {
-        for (let i = 1; i <= 8; i++) {
-            const searchString = d["pick" + i].trim();
-            const player = players.find(item => item.Player === searchString);
-            if (player) {
-                links.push({
-                    source: d.name,
-                    target: player.Player,
-                    value: 3,
-                    label: player.Player
-                });
-            }
-        }
-    });
-    return links;
-}
-
-function enrichPicks(poolData, players, payouts) {
-    return poolData.map(d => {
-        const picks = [];
-        for (let i = 1; i <= 8; i++) {
-            let searchString = d["pick" + i].trim();
-            let player = players.find(item => item.Player === searchString) || null;
-            if (player) picks.push(player);
-        }
-        const money = estimateMoney(picks, payouts);
-        return {
-            id: d.name,
-            picks,
-            group: 10,
-            label: d.name,
-            money
-        };
-    });
-}
-
-function estimateMoney(picks, payouts) {
-    return picks.reduce((total, p) => total + calculatePurse(p, payouts), 0);
-}
-
-function calculatePurse(player, payouts) {
-    if (player.status === "cut" || player.position >= 50 || !payouts[player.position]) {
+function purse(player) {
+    if (player.status === "cut")
         return 0;
-    }
-    return payouts[player.position];
+
+    if (player.position >= 50)
+        return 0;
+
+    var amount = payouts[player.position];
+    if (!amount)
+        return 0;
+    return amount;
 }
 
 function calcPayouts(purse, players) {
     const payouts = [];
     const ranks = players.reduce((acc, player) => {
-        const rank = player.position;
+        const rank = +player.pos;
         acc[rank] = (acc[rank] || 0) + 1;
         return acc;
     }, {});
@@ -136,7 +132,7 @@ function tabulate(data, columns) {
         .data(d => {
             const ret = [d.id, parseInt(d.money, 10)];
             d.picks.sort((a, b) => a.position - b.position)
-                .forEach(p => ret.push(textDisplay(p)));
+                   .forEach(p => ret.push(textDisplay(p)));
             return ret;
         })
         .enter()
@@ -145,6 +141,7 @@ function tabulate(data, columns) {
 
     return table;
 }
+
 
 function textDisplay(player) {
     var label = player.Player;
@@ -155,4 +152,5 @@ function textDisplay(player) {
     var html = label;
     return html;
 }
+
 
