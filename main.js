@@ -1,30 +1,30 @@
 
 var payouts = [];
- var nodes = [];
-            var links = [];
+var nodes = [];
+var links = [];
 d3.csv("purse.csv", function (error, purse) {
-	
-	  d3.json("scores.json", function (error, scores) {
-        var players = scores.data.player;
-		players.forEach(function (p) {
-				p.Player = p.first_name+" "+p.last_name;
-            });
+
+    d3.json("leaderboard.json", function (error, scores) {
+        var players = scores.Players;
+        players.forEach(function (p) {
+            p.Player = p.Name;
+        });
         payouts = calcPayouts(purse, players);
-		players.forEach(function (p) {
-                p.purse = payouts[p.position];
-                nodes.push({
-                    id: p.full_name,
-                    group: 3,
-                    label: p.full_name,
-                    money: p.purse,
-                    golfer: true
-                })
-            });
+        players.forEach(function (p) {
+            p.purse = payouts[p.position];
+            nodes.push({
+                id: p.Name,
+                group: 3,
+                label: p.Name,
+                money: p.purse,
+                golfer: true
+            })
+        });
         d3.csv("Masters2024.csv", function (error, data) {
             if (error)
                 throw error;
 
-           
+
 
             data.forEach(function (d) {
                 var entry = {
@@ -43,7 +43,7 @@ d3.csv("purse.csv", function (error, purse) {
                 entry.picks.forEach(function (pick) {
                     if (pick) {
                         var label = pick.Player
-                            links.push({
+                        links.push({
                             source: d.Name,
                             "target": pick.Player,
                             "value": 3,
@@ -132,7 +132,7 @@ function tabulate(data, columns) {
         .data(d => {
             const ret = [d.id, parseInt(d.money, 10)];
             d.picks.sort((a, b) => a.position - b.position)
-                   .forEach(p => ret.push(textDisplay(p)));
+                .forEach(p => ret.push(textDisplay(p)));
             return ret;
         })
         .enter()
