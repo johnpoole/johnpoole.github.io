@@ -3,12 +3,16 @@ var payouts = [];
 var nodes = [];
 d3.csv("purse.csv", function (error, purse) {
 
-    d3.json("leaderboard.json", function (error, scores) {
-        var players = scores.Players;
-        
+    d3.json("scores.json", function (error, scores) {
+        var players = scores.data.player;
+         players.forEach(function (p) {
+			
+			p.Rank = +p.pos.replace("T","");
+			p.Name = p.full_name;
+		 });
         payouts = calcPayouts(purse, players);
         players.forEach(function (p) {
-            p.purse = payouts[p.position];
+            p.purse = payouts[p.Rank];
             nodes.push({
                 id: p.Name,
                 group: 3,
@@ -20,9 +24,7 @@ d3.csv("purse.csv", function (error, purse) {
         d3.csv("Masters2024.csv", function (error, data) {
             if (error)
                 throw error;
-
-				const chordData = [];
-
+			const chordData = [];
 
             data.forEach(function (d) {
 				const chordRow = [];
@@ -34,7 +36,7 @@ d3.csv("purse.csv", function (error, purse) {
                 };
                 for (i = 1; i <= 8; i++) {
                     let searchString = d["pick" + i].trim();
-                    let player = players.find(item => item.Name === searchString) || null;
+                    let player = players.find(item => normalizeString(item.Name) === searchString) || null;
 
                     if (player)
                         entry.picks.push(player);
@@ -245,4 +247,9 @@ function chords(mdata){
                 .attr("d", ribbon.radius(r0))
 
         }
+}
+function normalizeString(str) {
+    // Normalize the string to NFD (Normalization Form Decomposed)
+    // Then replace any character that is not a basic Latin letter or number with an empty string
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, '');
 }
