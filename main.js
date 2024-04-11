@@ -59,7 +59,6 @@ d3.csv("purse.csv", function (error, purse) {
             var header = ["name", "money*"];
             tabulate(nodes, header);
 			 
-			
 			chords(chordData);
         });
     });
