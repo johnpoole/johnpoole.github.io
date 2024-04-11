@@ -6,9 +6,7 @@ d3.csv("purse.csv", function (error, purse) {
 
     d3.json("leaderboard.json", function (error, scores) {
         var players = scores.Players;
-        players.forEach(function (p) {
-            p.Player = p.Name;
-        });
+        
         payouts = calcPayouts(purse, players);
         players.forEach(function (p) {
             p.purse = payouts[p.position];
@@ -35,17 +33,17 @@ d3.csv("purse.csv", function (error, purse) {
                 };
                 for (i = 1; i <= 8; i++) {
                     let searchString = d["pick" + i].trim();
-                    let player = players.find(item => item.Player === searchString) || null;
+                    let player = players.find(item => item.Name === searchString) || null;
 
                     if (player)
                         entry.picks.push(player);
                 }
                 entry.picks.forEach(function (pick) {
                     if (pick) {
-                        var label = pick.Player
+                        var label = pick.Name
                         links.push({
                             source: d.Name,
-                            "target": pick.Player,
+                            "target": pick.Name,
                             "value": 3,
                             "label": label
                         });
@@ -55,7 +53,7 @@ d3.csv("purse.csv", function (error, purse) {
 
                 nodes.push(entry);
             });
-            var header = ["name", "money"];
+            var header = ["name", "money*"];
             tabulate(nodes, header);
 
         });
@@ -87,7 +85,7 @@ function purse(player) {
 function calcPayouts(purse, players) {
     const payouts = [];
     const ranks = players.reduce((acc, player) => {
-        const rank = +player.pos;
+        const rank = +player.Rank;
         acc[rank] = (acc[rank] || 0) + 1;
         return acc;
     }, {});
@@ -144,7 +142,7 @@ function tabulate(data, columns) {
 
 
 function textDisplay(player) {
-    var label = player.Player;
+    var label = player.Name;
     if (player.position)
         label += "(" + player.position + ")";
     else
