@@ -49,7 +49,7 @@ d3.csv("purse.csv", function (error, purse) {
                             "value": 3,
                             "label": label
                         });
-						chordData.push({count: pick.purse ? pick.purse : 1, node: pick.Name, root: entry.id});
+						chordData.push({count: pick.Rank ? payouts[pick.Rank] : 1, node: pick.Name, root: entry.id});
                     }
                 });
                 entry.money = estimateMoney(entry.picks);
