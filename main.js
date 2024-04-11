@@ -232,7 +232,7 @@ function chords(mdata){
                 })
                 .attr("transform", function(d) {
                     return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")" +
-                        "translate(" + (r0 + 50) + ")" +
+                        "translate(" + (r0 + 20 + mapReader(d).gname.length * 3) + ")" +
                         (d.angle > Math.PI ? "rotate(180)" : "");
                 })
                 .text(function(d) {
