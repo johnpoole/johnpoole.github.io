@@ -78,10 +78,10 @@ function purse(player) {
     if (player.status === "cut")
         return 0;
 
-    if (player.position >= 50)
+    if (player.Rank >= 50)
         return 0;
 
-    var amount = payouts[player.position];
+    var amount = payouts[player.Rank];
     if (!amount)
         return 0;
     return amount;
@@ -148,8 +148,8 @@ function tabulate(data, columns) {
 
 function textDisplay(player) {
     var label = player.Name;
-    if (player.position)
-        label += "(" + player.position + ")";
+    if (player.Rank)
+        label += "(" + player.Rank + ")";
     else
         label = "<strike>" + label + "</strike>";
     var html = label;
