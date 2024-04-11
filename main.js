@@ -1,7 +1,6 @@
 
 var payouts = [];
 var nodes = [];
-var links = [];
 d3.csv("purse.csv", function (error, purse) {
 
     d3.json("leaderboard.json", function (error, scores) {
@@ -42,13 +41,6 @@ d3.csv("purse.csv", function (error, purse) {
                 }
                 entry.picks.forEach(function (pick) {
                     if (pick) {
-                        var label = pick.Name
-                        links.push({
-                            source: d.Name,
-                            "target": pick.Name,
-                            "value": 3,
-                            "label": label
-                        });
 						chordData.push({count: pick.Rank && pick.Rank < 50 ? payouts[pick.Rank] : 0, node: pick.Name, root: entry.id});
                     }
                 });
