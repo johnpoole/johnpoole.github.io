@@ -24,8 +24,6 @@ d3.csv("purse.csv", function (error, purse) {
         d3.csv("Masters2024.csv", function (error, data) {
             if (error)
                 throw error;
-			const chordData = [];
-
             data.forEach(function (d) {
 				const chordRow = [];
                 var entry = {
@@ -41,23 +39,33 @@ d3.csv("purse.csv", function (error, purse) {
                     if (player)
                         entry.picks.push(player);
                 }
-                entry.picks.forEach(function (pick) {
-                    if (pick) {
-						chordData.push({count: pick.Rank && pick.Rank < 50 ? payouts[pick.Rank] : 0, node: pick.Name, root: entry.id});
-                    }
-                });
+               
                 entry.money = estimateMoney(entry.picks);
 
                 nodes.push(entry);
             });
             var header = ["name", "money*"];
             tabulate(nodes, header);
-			 
+			
+			const chordData = [];
+			nodes.filter( node=> !node.golfer).sort((a, b)=>a.money-b.money)
+				.forEach(node => 
+					node.picks.forEach(pick =>{
+						chordData.push({
+						count: payoutValue(pick.Rank),
+						node: pick.Name,
+						root: node.id
+					})})
+				);
+
 			chords(chordData);
         });
     });
 });
 
+function payoutValue( val ){
+	return val > 50 ? 0 : payouts[val];
+}
 function estimateMoney(picks) {
     var total = 0;
     picks.forEach(function (p) {
@@ -127,7 +135,7 @@ function tabulate(data, columns) {
     rows.selectAll('td')
         .data(d => {
             const ret = [d.id, parseInt(d.money, 10)];
-            d.picks.sort((a, b) => a.position - b.position)
+            d.picks.sort((a, b) => a.Rank - b.Rank)
                 .forEach(p => ret.push(textDisplay(p)));
             return ret;
         })
