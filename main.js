@@ -3,16 +3,16 @@ var payouts = [];
 var nodes = [];
 d3.csv("purse.csv", function (error, purse) {
 
-    d3.json("scores.json", function (error, scores) {
-        var players = scores.data.player;
+    d3.json("leaderboard.json", function (error, scores) {
+        var players = scores.leaderboard;
          players.forEach(function (p) {
 			
-			p.Rank = +p.pos.replace("T","");
-			p.Name = p.full_name;
+			p.Rank = +p.position;
+			p.Name = p.first_name+" "+p.last_name;
 		 });
         payouts = calcPayouts(purse, players);
         players.forEach(function (p) {
-            p.purse = payouts[p.Rank];
+            p.purse = payoutValue(p.Rank);
             nodes.push({
                 id: p.Name,
                 group: 3,
@@ -64,7 +64,7 @@ d3.csv("purse.csv", function (error, purse) {
 });
 
 function payoutValue( val ){
-	return val > 50 ? 0 : payouts[val];
+	return val > payouts.length -1 ? 0 : payouts[val];
 }
 function estimateMoney(picks) {
     var total = 0;
