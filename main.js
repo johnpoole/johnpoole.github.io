@@ -255,7 +255,12 @@ function chords(mdata){
                 .style("fill", function(d, i) {
                     return colors(d.target.index)
                 })
-                .attr("d", ribbon.radius(r0))
+                .attr("d", ribbon.radius(r0)).append("title")  // Append a title element which is used for the tooltip
+    .text(function(d) {
+        var sourceName = mapReader(d.source).gname;
+        var targetName = mapReader(d.target).gname;
+        return targetName  + " → " + sourceName + ": $" + d.source.value;
+    });
 
         }
 }
