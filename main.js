@@ -48,9 +48,9 @@ d3.csv("purse.csv", function (error, purse) {
             tabulate(nodes, header);
 			
 			const chordData = [];
-			nodes.filter( node=> !node.golfer).sort((a, b)=>a.money-b.money)
+			nodes.filter( node=> !node.golfer).sort((a, b)=>b.money-a.money).slice(0,10)
 				.forEach(node => 
-					node.picks.forEach(pick =>{
+					node.picks.filter( p=> p.Rank !==0).forEach(pick =>{
 						chordData.push({
 						count: payoutValue(pick.Rank),
 						node: pick.Name,
@@ -64,8 +64,10 @@ d3.csv("purse.csv", function (error, purse) {
 });
 
 function payoutValue( val ){
-	return val > 50 ? 0 : payouts[val];
+	if( val === 0 || val > 50) return 0;
+	return payouts[val];
 }
+
 function estimateMoney(picks) {
     var total = 0;
     picks.forEach(function (p) {
@@ -76,7 +78,7 @@ function estimateMoney(picks) {
 }
 
 function purse(player) {
-    if (player.status === "cut")
+    if (player.newStatus === "C")
         return 0;
 
     if (player.Rank >= 50)
@@ -97,7 +99,7 @@ function calcPayouts(purse, players) {
     }, {});
 
     let shared = 0;
-    for (let i = 1; i < 50; i++) {
+    for (let i = 1; i <= 50; i++) {
         if (ranks[i]) {
             shared = 0;
             for (let j = 0; j < ranks[i] && i + j < 50; j++) {
@@ -217,6 +219,7 @@ function chords(mdata){
             g.append("svg:path")
                 .style("stroke", "grey")
                 .style("fill", function(d) {
+					const stuff = mapReader(d);
                     return mapReader(d).gdata;
                 })
                 .attr("d", arc);
@@ -250,7 +253,7 @@ function chords(mdata){
                 .attr("class", "chord")
                 .style("stroke", "grey")
                 .style("fill", function(d, i) {
-                    return colors(i)
+                    return colors(d.target.index)
                 })
                 .attr("d", ribbon.radius(r0))
 
