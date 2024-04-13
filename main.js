@@ -137,7 +137,7 @@ function tabulate(data, columns) {
     rows.selectAll('td')
         .data(d => {
             const ret = [d.id, parseInt(d.money, 10)];
-            d.picks.sort((a, b) => a.Rank - b.Rank)
+            d.picks.sort((a, b) =>  a.Rank !== b.Rank ? a.Rank - b.Rank : a.Name.localeCompare(b.Name))
                 .forEach(p => ret.push(textDisplay(p)));
             return ret;
         })
