@@ -190,6 +190,7 @@ function chords(mdata){
       //  });
 
         function drawChords(matrix, mmap) {
+            var colors = d3.scaleOrdinal(d3.schemeCategory20c);
 
             var w = 980,
                 h = 800,
@@ -216,8 +217,8 @@ function chords(mdata){
                 .attr("transform", "translate(" + w / 2 + "," + h / 2 + ")")
                 .datum(chord(matrix));
 
-            svg.append("circle")
-                .attr("r", r0 + 20);
+          //  svg.append("circle")
+           //     .attr("r", r0 + 20);
 
             var mapReader = chordRdr(matrix, mmap);
 
@@ -228,6 +229,8 @@ function chords(mdata){
                 })
                 .enter().append("svg:g")
                 .attr("class", "group")
+				.style("fill",       function(d) {              return colors(d.index)});
+
 
             g.append("svg:path")
                 .style("stroke", "grey")
@@ -256,7 +259,6 @@ function chords(mdata){
                     return mapReader(d).gname;
                 });
 
-            var colors = d3.scaleOrdinal(d3.schemeCategory20c);
 
             var chordPaths = svg.selectAll("path.chord")
                 .data(function(chords) {
