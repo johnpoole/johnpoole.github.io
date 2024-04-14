@@ -49,7 +49,7 @@ d3.csv("purse.csv", function (error, purse) {
             tabulate(nodes, header);
 			
 			const chordData = [];
-			const displayCount = 8;
+			const displayCount = 2;
 			const displayNodes = nodes.filter( node=> !node.golfer).sort((a, b)=>b.money-a.money).slice(0,displayCount);
 			const commonPicks = {};
 			displayNodes
