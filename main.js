@@ -48,14 +48,27 @@ d3.csv("purse.csv", function (error, purse) {
             tabulate(nodes, header);
 			
 			const chordData = [];
-			nodes.filter( node=> !node.golfer).sort((a, b)=>b.money-a.money).slice(0,10)
+			const displayCount = 8;
+			const displayNodes = nodes.filter( node=> !node.golfer).sort((a, b)=>b.money-a.money).slice(0,displayCount);
+			const commonPicks = {};
+			displayNodes
+				.forEach((node, i) => node.picks.forEach( pick =>{
+					if( !commonPicks[pick.Name] ){
+						commonPicks[pick.Name] = 0;
+					}
+					commonPicks[pick.Name]++;
+				}));
+			displayNodes
 				.forEach(node => 
 					node.picks.filter( p=> p.Rank !==0).forEach(pick =>{
-						chordData.push({
-						count: payoutValue(pick.Rank),
-						node: pick.Name,
-						root: node.id
-					})})
+						if( commonPicks[pick.Name] < displayCount){
+							chordData.push({
+								count: payoutValue(pick.Rank),
+								node: pick.Name,
+								root: node.id
+							})
+						}
+					})
 				);
 
 			chords(chordData);
