@@ -8,6 +8,7 @@ d3.csv("purse.csv", function (error, purse) {
          players.forEach(function (p) {
 			
 			p.Rank = +p.pos.replace("T","");
+			if( p.Rank ===0) p.Rank = 100;
 			p.Name = p.full_name;
 		 });
         payouts = calcPayouts(purse, players);
@@ -164,7 +165,7 @@ function tabulate(data, columns) {
 
 function textDisplay(player) {
     var label = player.Name;
-    if (player.Rank)
+    if (player.Rank < 100)
         label += "(" + player.Rank + ")";
     else
         label = "<strike>" + label + "</strike>";
