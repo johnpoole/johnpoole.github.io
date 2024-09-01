@@ -1,0 +1,35 @@
+
+    .reset {
+      padding-left: 1em;
+      font-size: smaller;
+      color: #ccc;
+    }
+
+    .background.bar {
+      fill: #ccc;
+    }
+
+    .foreground.bar {
+      fill: steelblue;
+    }
+
+    .brush-handle {
+      fill: #eee;
+      stroke: #666;
+    }
+
+    #x-chart {
+      width: 250px;
+    }
+
+    #y-chart {
+      width: 250px;
+    }
+
+    #z-chart {
+      width: 250px;
+    }
+
+    aside {
+      font-size: smaller;
+    }
