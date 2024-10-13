@@ -214,7 +214,7 @@ function processData(data, tt) {
 
   zText.exit().remove();
 
-  d3.selectAll('._3d').sort(d3._3d().sort);
+  d3.selectAll('._3d').sort((a, b) => a.centroid.z - b.centroid.z);
 
   Legend.render(vCategory, reverse);
 }
