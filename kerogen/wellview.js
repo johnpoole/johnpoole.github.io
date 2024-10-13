@@ -1,12 +1,12 @@
 let wellCrossfilter;
 let xDimension, yDimension, zDimension;
-let origin = [500, 375],
-  scale = 5,
+let origin = getParameter('origin', [500, 375]),
+  scale = getParameter('scale', 5),
   key = function(d) {
     return d.id;
   },
-  startAngleX = 2.356194490192345,
-  startAngleY = 0.7034435724342363;
+  startAngleX = getParameter('startAngleX', 2.356194490192345),
+  startAngleY = getParameter('startAngleY', 0.7034435724342363);
 let wellIDFocus = "None";
 let ZScale = d3.scaleLinear().range([0, 100]);
 let XScale = d3.scaleLinear().range([0, 100]);
@@ -227,6 +227,11 @@ function posPointX(d) {
 
 function posPointY(d) {
   return d.projected.y;
+}
+
+function getParameter(param, defaultValue) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.has(param) ? JSON.parse(urlParams.get(param)) : defaultValue;
 }
 
 function init() {
