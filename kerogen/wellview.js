@@ -453,8 +453,7 @@ function setOriginY(originY) {
 }
 
 function buildCrossFilters() {
-  console.log(allWells.length);
-  if (typeof xDimension !== 'undefined') {
+  if (xDimension) {
     xDimension.dispose();
     yDimension.dispose();
     zDimension.dispose();
@@ -475,6 +474,12 @@ function buildCrossFilters() {
   });
 
   const all = wellCrossfilter.groupAll();
+
+  if (!xDimension) {
+    xDimension = wellCrossfilter.dimension(d => parseFloat(d[xCategory]));
+    yDimension = wellCrossfilter.dimension(d => parseFloat(d[yCategory]));
+    zDimension = wellCrossfilter.dimension(d => parseFloat(d[zCategory]));
+  }
 
   xDimension = wellCrossfilter.dimension(d => parseFloat(d[xCategory]));
   const xGroup = xDimension.group(function(d) {
