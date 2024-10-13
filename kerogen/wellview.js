@@ -266,7 +266,7 @@ window.xGrid = xGrid; window.scatter = scatter; window.yLine = yLine; window.xLi
     YScale.domain(YExtent).nice();
   }
 
-  wells.forEach(function(d) {
+  for (const d of wells) {
     scatter.push({
       x: XScale(parseFloat(d[xCategory])),
       y: YScale(parseFloat(d[yCategory])),
@@ -275,7 +275,7 @@ window.xGrid = xGrid; window.scatter = scatter; window.yLine = yLine; window.xLi
       value: d[vCategory],
       wellID: d.wellID
     });
-  })
+  }
   for (let z = 0; z < 100; z += 10) {
     for (let x = 0; x < 100; x += 10) {
       xGrid.push([x, -10, z]);
