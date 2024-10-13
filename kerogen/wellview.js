@@ -458,7 +458,11 @@ function buildCrossFilters() {
     xDimension.dispose();
     yDimension.dispose();
     zDimension.dispose();
-  }
+}
+
+xDimension = null;
+yDimension = null;
+zDimension = null;
   const formatNumber = d3.format(',d');
 
   let ZExtent = d3.extent(allWells, function(d) {
