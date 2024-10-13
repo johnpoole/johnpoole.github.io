@@ -314,16 +314,7 @@ d3.csv("data.csv", function(data) {
   allWells = data;
   wellCrossfilter = crossfilter(allWells);
 
-  d3.select("#color").selectAll("option").data(allWells.columns).enter().append("option").text(function(d) {
-    return d;
-  })
-  d3.select("#xaxis").selectAll("option").data(allWells.columns).enter().append("option").text(function(d) {
-    return d;
-  })
-  d3.select("#yaxis").selectAll("option").data(allWells.columns).enter().append("option").text(function(d) {
-    return d;
-  })
-  d3.select("#zaxis").selectAll("option").data(allWells.columns).enter().append("option").text(function(d) {
+  d3.selectAll('#color, #xaxis, #yaxis, #zaxis').selectAll('option').data(allWells.columns).enter().append('option').text(function(d) {
     return d;
   })
 
