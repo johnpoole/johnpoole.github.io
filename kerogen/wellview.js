@@ -338,8 +338,7 @@ function dragStart() {
 function dragged() {
   mouseX = mouseX || 0;
   mouseY = mouseY || 0;
-  let beta = (d3.event.x - mx + mouseX) * Math.PI / 230 * (-1);
-  let alpha = (d3.event.y - my + mouseY) * Math.PI / 230 * (-1);
+  const { beta, alpha } = calculateRotation(d3.event.x, d3.event.y);
   let data = [
     grid3d.rotateY(beta + startAngleY).rotateX(alpha - startAngleX)(xGrid),
     point3d.rotateY(beta + startAngleY).rotateX(alpha - startAngleX)(scatter),
@@ -350,9 +349,16 @@ function dragged() {
   processData(data, 0);
 }
 
+function calculateRotation(x, y) {
+  const beta = (x - mx + mouseX) * Math.PI / 230 * (-1);
+  const alpha = (y - my + mouseY) * Math.PI / 230 * (-1);
+  return { beta, alpha };
+}
+
 function dragEnd() {
-  mouseX = d3.event.x - mx + mouseX;
-  mouseY = d3.event.y - my + mouseY;
+  const { beta, alpha } = calculateRotation(d3.event.x - mx, d3.event.y - my);
+  mouseX += beta;
+  mouseY += alpha;
 }
 
 d3.selectAll('#color').on('change', updateV);
