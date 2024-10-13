@@ -14,7 +14,7 @@ let YScale = d3.scaleLinear().range([0, 100]);
 let svg = d3.select('svg').call(d3.drag().on('drag', dragged).on('start', dragStart).on('end', dragEnd)).append('g');
 
 let colorList = ['#d53e4f', '#f46d43', '#fdae61', '#fee08b', '#ffffbf', '#e6f598', '#abdda4', '#66c2a5', '#3288bd'];
-let reverse = colorList.reverse();
+let reverse = [...colorList].reverse();
 let color = d3.scaleQuantize().range(reverse);
 
 let zCategory = "hi",
