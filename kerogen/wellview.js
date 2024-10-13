@@ -310,7 +310,7 @@ window.xGrid = xGrid; window.scatter = scatter; window.yLine = yLine; window.xLi
 
 let wells;
 let allWells;
-d3.csv("data.csv", function(data) {
+d3.csv("data.csv").then(function(data) {
   allWells = data;
   wellCrossfilter = crossfilter(allWells);
 
